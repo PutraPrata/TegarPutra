@@ -65,7 +65,6 @@ def page_about():
     st.write("""
     Aplikasi ini dibuat untuk:
     - Menerapkan efek blur pada gambar yang diunggah.
-    - Menampilkan informasi tentang anggota tim.
     
     **Teknologi**:
     - Python
