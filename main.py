@@ -9,7 +9,7 @@ def apply_blur(image, blur_strength):
 # Fungsi untuk mengecek keberadaan file gambar
 def load_image(image_path, caption):
     if os.path.exists(image_path):
-        st.image(image_path, caption=caption, use_column_width=True)
+        st.image(image_path, caption=caption, use_container_width=True)
     else:
         st.error(f"File gambar tidak ditemukan: {image_path}")
 
